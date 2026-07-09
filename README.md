@@ -1,6 +1,6 @@
 # ECommerce-Customer-Segmentation
 
-SmartCart Customer Segmentation is a machine learning notebook project that groups customers based on demographics, purchase behavior, web activity, and campaign response data. The goal is to identify useful customer segments that can support personalized marketing, retention planning, and promotional strategy.
+Ecommerce Customer Segmentation is a machine learning notebook project that groups customers based on demographics, purchase behavior, web activity, and campaign response data. The goal is to identify useful customer segments that can support personalized marketing, retention planning, and promotional strategy.
 
 ## Dataset
 
