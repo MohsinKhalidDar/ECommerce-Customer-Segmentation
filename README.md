@@ -52,22 +52,6 @@ It also removes high-impact outliers, including customers with unrealistic ages 
 - Kneed
 - Threadpoolctl
 
-## Results
-
-The clustering workflow compares cluster choices using the elbow method and silhouette score, then applies 4-cluster segmentation using KMeans and Agglomerative Clustering.
-
-Generated visualizations are saved in `images/`, including:
-
-- `feature_pairplot_outlier_check.png`
-- `correlation_heatmap.png`
-- `pca_3d_projection.png`
-- `elbow_method_wcss.png`
-- `elbow_vs_silhouette_score.png`
-- `kmeans_clusters_3d.png`
-- `agglomerative_clusters_3d.png`
-- `cluster_count_distribution.png`
-- `income_vs_total_spending_by_cluster.png`
-
 ## Project Structure
 
 ```text
@@ -89,13 +73,11 @@ SmartCart-Customer-Segmentation/
 `-- README.md
 ```
 
-## How to Run
+## Results
 
-1. Open `notebooks/Smartcart_.ipynb` in Jupyter Notebook or JupyterLab.
-2. Make sure the dataset path points to `../data/customers.csv` if running from inside the `notebooks` folder.
-3. Run the notebook cells from top to bottom.
+The model identified **four customer segments**:
 
-## Notes
-
-- The notebook includes a Windows-specific KMeans thread limit to avoid repeated MKL warnings.
-- The saved plots in `images/` were exported from the notebook outputs.
+- Premium Customers
+- Family Shoppers
+- Budget Customers
+- High ROI Customers
